@@ -2,3 +2,26 @@ body {
     margin: 0;
     padding: 0;
 }
+
+h1 {
+    color: darkmagenta;
+    font-size: 35px;
+    text-align: center;
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    from {
+        color: #E6399B;
+    } 25% {
+        color: #9F3ED5;
+    } 50% {
+        color: #B9F73E;
+    } 75% {
+        color: #FF4040;
+    } to {
+        color: #CD0074;
+    }
+}
