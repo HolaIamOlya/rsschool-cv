@@ -5,14 +5,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Qwitcher+Grypen:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/rsschool-cv/style.css">
     <title>Olga Lenskaya</title>
 </head>
 
 <body>
     <div id="mainDiv">
-        <div>
-            <h1>HI GUYS</h1>
+        <!-- <div>
+            <h1>HI EVERYONE</h1>
+        </div> -->
+        <div id="cv">
+            <header id="headerDiv">
+                <img src="Без названия.jpg" alt="фото для cv" width="270px" height="100%">
+                <div id="headerName">
+                    <h1>Olga Lenskaya</h1>
+                    <h2>Frontend Delevoper</h2>
+                    <nav>
+                        <ul id="contact">
+                            <li>Phone: +375445470874</li>
+                            <li>Email: olyamolchanovaa@icloud.com</li>
+                            <li>Discord: add</li>
+                        </ul>
+                    </nav>
+                </div>
+                
+            </header>
+            <main>
+                <div id="myself">
+                    <h2>About muself:</h2>
+                    <p>Hi everyone! I want learn JavaScript because I want be Frontend Developer. Also I learn English.
+                        I belive in myself:)</p>
+                </div>
+                <hr>
+                <div id="skills">
+                    <h2>Skills:</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <hr>
+                <div id="code" >
+                    <h2>Code example:</h2>
+                    <p>for (let i = 1; i <= 3; i++){ <br/>
+                        let img = document.createElement("img");<br/>
+                        img.src = "./1.png";<br/>
+                        img.style.position = 'absolute';<br/>
+                        img.style.width = '100px';<br/>
+                        img.style.height = '100px';<br/>
+                        img.style.left = img.offsetWidth + '100px';<br/>
+                        img.style.top = img.offsetHeight + '100px';<br/>
+                        img.style.cursor = 'grab';<br/>
+                        document.body.appendChild(img);<br/>
+                        <br/>
+                        img.addEventListener("mousedown", mousedownImg);<br/>
+                        }</p>
+                </div>
+                <hr>
+                <div id="education">
+                    <h2>Education:</h2>
+                    <ul>
+                        <li>Self-education</li>
+                        <li>IT-Academy</li>
+                        <li>RS School</li>
+                    </ul>
+                </div>
+                <hr>
+                <div id="languages">
+                    <h2>Languages:</h2>
+                    <p>English A2</p> 
+                </div>
+            </main>
+            <footer>
+                <a href="https://github.com/HolaIamOlya">GitHub</a>
+                <a href="https://rs.school/js/">RSSchool</a>
+                <img src="rs_school_js.svg" alt="logo" width="55px" height="70px">
+                <p>2022</p>
+            </footer>
         </div>
     </div>
     <script src="script.js"></script>
