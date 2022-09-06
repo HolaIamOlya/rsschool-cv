@@ -7,7 +7,7 @@
 ***
 #### About myshelf
 
-I want to start a career as a JavaScript developer. 6 months ago I started actively studying JS. I study independently, I also graduated from the 0 stage in the RS-School. In my free time, I make up websites and learn English. I study English 3-4 times a week with a native speaker. I am sure that I will become an excellent Frontend developer.
+I want to start a career as a JavaScript Frontend developer. 6 months ago I started actively studying JS. I study independently, I also graduated from the 0 stage in the RS-School. In my free time, I make up websites and learn English. I study English 3-4 times a week with a native speaker. I am sure that I will become an excellent Frontend developer.
 ***
 
 #### Skills
