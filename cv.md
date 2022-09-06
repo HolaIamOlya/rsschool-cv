@@ -32,6 +32,10 @@ for (let i = 1; i <= 3; i++){
   img.addEventListener("mousedown", mousedownImg);  
 }
 ***
+#### Work Experience
+I have no experience as a frontend developer, but I have a training project from stage 0.  
+<code>[Ссылка на учебный проект](https://rolling-scopes-school.github.io/holaiamolya-JSFEPRESCHOOL2022Q2/travel/)
+</code>
 #### Education
 * IT-Academy
 * RS School
